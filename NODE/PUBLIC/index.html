@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://kit.fontawesome.com/687c2b0779.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>MXPlusC</title>
+    <script async src="js/opencv.js"></script>
+    <script src="js/utils.js"></script>
+    
+</head>
+<body>
+    <!-------param-form-------------------------------------------->
+    <div id="connectDiv" class="connect-div">
+        <h4 id="close2">x</h4>
+        <h2 id="connectedId">DB Connections</h2>
+        <div class="chart">
+            <canvas id="appDescChart">
+
+            </canvas>
+        </div>
+       
+    </div>
+    <!-------param-form-------------------------------------------->
+    <!-------param-form---2----------------------------------------->
+    <div id="connectDiv2" class="connect-div-2">
+        <h4 id="close3">x</h4>
+        <h2 id="connectedId">TPS Chart</h2>
+        <div class="chart">
+            <canvas id="appDescChartTps">
+
+            </canvas>
+        </div>
+    </div>
+    <!-------param-form-----2--------------------------------------->
+    <!-------param-form-------------3------------------------------->
+    <div id="connectDiv3" class="connect-div-3">
+        <h4 id="close4">x</h4>
+        <h2 id="connectedId">Disk Space Mnager</h2>
+        <div class="chart">
+            <canvas id="appDescChartDisk">
+
+            </canvas>
+        </div>
+    </div>
+    <!-------param-form-----3--------------------------------------->
+    <div class="main-container">
+        <div class="row">
+            <div class="col-md-3" id="sideBar">
+                <div class="side-bar">
+                    <h2>MXPlusC</h2>
+                    <ul>
+                        <li id="reeBootTr"><span class="fas fa-chart-line" style="
+                            color: white;
+                            padding-right: 5px;
+                            font-size: 15px;
+                          "></span> TPS Counter</li>
+                        <li id="clrTr"><span class="fas fa-chart-line" style="
+                            color: white;
+                            padding-right: 5px;
+                            font-size: 15px;
+                          "></span>Disk Manager</li>
+                        <li id="paramTr"><span class="fas fa-chart-line" style="
+                            color: white;
+                            padding-right: 5px;
+                            font-size: 15px;
+                          "></span>DB Analysist</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9" id="mainBox">
+                <div id="visulizer" class="er-vlr">
+                    <h3>Error Visulizer</h3>
+                    <div class="chart-1" id="chart1">
+                        <canvas id="myChart" width="400" height="400">
+
+                        </canvas>
+                    </div>
+                    <div class="err-desc" id="errDesc">
+                        <h3>Actions and Reports</h3>
+                        <p class="level-1" id="lvelOne">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                             the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+                            scrambled it to make a type specimen book. It has</p>
+                        <p class="level-2" id="levelTwo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+                           scrambled it to make a type specimen book. It has</p>
+                        <h3>Warnings</h3>
+                        <p class="level-3" id="levelThree">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+                           scrambled it to make a type specimen book. It has</p>
+                        <p class="level-4" id="levelFour">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+                           scrambled it to make a type specimen book. It has</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8">
+                <div class="err-report" id="errorReport">
+                    <h3>Error Report</h3>
+                    <div class="chart-2" id="chart2">
+                        <canvas id="errorReporChart">
+
+                        </canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8">
+                <div class="logger-module" id="logger">
+                    <h3>Action Logs</h3>
+                    <code class="logger-module python"></code>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-4">
+                <hr style="margin-top: 50px;width:100%;"/>
+                <h5 style="text-align:center;padding-top: 0px;padding-bottom: 10px;opacity: .4;">Developed by 6d Technologies</h5>
+            </div>
+            <div class="col-md-4">
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="modules/apiEngin.js"></script>
+<script src="class/config.js"></script>
+<script src="modules/error_dec.js"></script>
+<script src="modules/logger.js"></script>
+<script src="index.js"></script>
+</html>

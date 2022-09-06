@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.side-bar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #282828;
+}
+
+.side-bar h2 {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight:normal;
+    font-style: normal;
+    color: white;
+    font-weight: bolder;
+}
+
+.side-bar ul{
+    margin-top: 200px;
+}
+
+.side-bar li{
+    position: relative;
+    padding: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight:normal;
+    font-style: normal;
+    color: white;
+    cursor: pointer;
+    list-style:none;
+}
+
+.side-bar ul li a{
+    text-decoration: none;
+}
+/*----nav-bar---------*/
+/*----visulizer--part--*/
+.er-vlr h3{
+
+    margin-top: 5%;
+    margin-left: -8%;
+}
+.chart-1{
+    margin-top: 5%;
+    margin-left: -8%;
+    width: 400px;
+    height: 450px;
+}
+.err-desc{
+    width: 500px;
+    height: 450px;
+    margin-left:40%;
+    margin-top: -48%;
+    overflow: scroll;
+}
+
+.err-desc h3{
+    margin-left: 2%;
+    padding: 1%;
+    font-size: 30px;
+}
+
+.err-desc p{
+    padding: 5%;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+/*---visulization-end--*/
+.err-report{
+
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.chart-2{
+    width: 800px;
+    height: 300px;
+    margin-left: 10%;
+}
+
+.level-1{
+    display: none;
+    color: #FD5E5E;
+}
+
+.level-2{
+    display: none;
+    color: #FD5E5E;
+}
+
+.level-3{
+    display: none;
+    color: #ECE10A  ;
+}
+
+.level-4{
+    display: none;
+    color: #ECE10A ;
+}
+/*--connection--div--*/
+.connect-div {
+    display: none;
+    position: fixed;
+    width: 750px;
+    height: 430px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    z-index: 99999999;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.connect-div h2 {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -2%;
+}
+
+.connect-div h4 {
+    text-align: right;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.chart{
+    padding: 15px;
+    width: 500;
+    height: 300;
+}
+
+/*--connection--div-2-*/
+.connect-div-2 {
+    display: none;
+    position: fixed;
+    width: 750px;
+    height: 430px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    z-index: 99999999;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.connect-div-2 h2 {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -2%;
+}
+
+.connect-div-2 h4 {
+    text-align: right;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.chart{
+    padding: 15px;
+    width: 500;
+    height: 300;
+}
+
+/*--connection--div--3*/
+.connect-div-3 {
+    display: none;
+    position: fixed;
+    width: 750px;
+    height: 430px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    z-index: 99999999;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.connect-div-3 h2 {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -2%;
+}
+
+.connect-div-3 h4 {
+    text-align: right;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.chart{
+    padding: 15px;
+    width: 500;
+    height: 300;
+}
+/*-----logger--part--*/
+.logger-module{
+    margin-left: 5%;
+    margin-top: 20%;
+    width: 900px;
+    height: 400px;
+    overflow: scroll;
+}
+
+.logger-module h3{
+
+    padding-bottom: 10px;
+    font-size: 30px;
+
+    
+}
+.logger-module p{
+
+    padding-left: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    
+}
